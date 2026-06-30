@@ -1,34 +1,77 @@
-/* Google Calendar Scheduling Button Styles */
-
-.btn-contact {
-  display: inline-block;
-  margin: 10px 0;
+:root {
+	color-scheme: light;
 }
 
-.btn-contact.intern0 {
-  padding: 0;
+.qxCTlb {
+	border-radius: 4px;
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: .25px;
+	color: white;
+	border-width: 0;
+	cursor: pointer;
+	white-space: break-spaces;
+	word-break: break-word;
 }
 
-button.intern {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 20px;
-  background-color: #039BE5;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1em;
-  font-weight: 500;
-  transition: background-color 0.3s ease;
+.hur54b {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	background-color: rgba(32, 33, 36, .6);
+	z-index: 9999;
 }
 
-button.intern:hover {
-  background-color: #0288D1;
+@media (width <= 700px) {
+	.hur54b {
+		padding: 72px 0 0 0;
+	}
 }
 
-.material-icons {
-  display: inline-block;
-  font-size: 1.25em;
+@media (width >= 700px) {
+	.hur54b {
+		padding: 72px;
+	}
 }
+
+.mmGMM {
+	border: none;
+	border-radius: 8px;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+}
+
+.Xfsokf {
+	position: fixed;
+	top: 26px;
+	right: 72px;
+	display: flex;
+	align-items: center;
+	border: none;
+	border-radius: 18px;
+	height: 36px;
+	padding: 16px;
+	cursor: pointer;
+	background-color: rgb(60, 64, 67);
+}
+
+.L0Dvsd {
+	color: #fff;
+	font-size: 18px;
+	margin-right: 8px;
+}
+
+.uE25ec {
+	font-size: 14px;
+	font-family: "Google Sans", Arial, sans-serif;
+	font-weight: 500;
+	letter-spacing: .25px;
+	color: #fff;
+}
+
+sentinel {}
