@@ -109,6 +109,7 @@ body {
   color: var(--text);
   background: #00000080;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .hero .chevron {
